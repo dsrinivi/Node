@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Node</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #F5F7FA;
+    color: #222222;
+    line-height: 1.6;
+  }
+
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  header {
+    background: #FFFFFF;
+    border-bottom: 1px solid #DDDDDD;
+    padding: 18px 0;
+  }
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1E6F5C;
+  }
+  nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333333;
+    font-size: 14px;
+  }
+  nav a:hover { color: #1E6F5C; }
+
+  section {
+    padding: 50px 0;
+    border-bottom: 1px solid #E2E6EB;
+  }
+
+  h1 {
+    font-size: 32px;
+    color: #14213D;
+    margin-bottom: 14px;
+  }
+  h2 {
+    font-size: 24px;
+    color: #14213D;
+    margin-bottom: 20px;
+  }
+  p {
+    color: #444444;
+    margin-bottom: 12px;
+    max-width: 700px;
+  }
+
+  .btn {
+    display: inline-block;
+    background: #1E6F5C;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  ul {
+    margin-left: 20px;
+    color: #444444;
+  }
+  ul li { margin-bottom: 8px; }
+
+  .team-list {
+    list-style: none;
+    margin: 0;
+  }
+  .team-list li {
+    background: #ffffff;
+    border: 1px solid #E2E6EB;
+    padding: 14px 18px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+  }
+  .team-list b { color: #14213D; }
+
+  .founder {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 14px;
+  }
+  .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #1E6F5C;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    overflow: hidden;
+  }
+  .avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  blockquote {
+    background: #ffffff;
+    border-left: 3px solid #1E6F5C;
+    padding: 18px 20px;
+    color: #333333;
+    font-style: italic;
+    margin-top: 20px;
+    max-width: 700px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 24px;
+    font-size: 13px;
+    color: #777777;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="logo">Node</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#founders">Founders</a>
+      <a href="#team">Team</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section id="about">
+  <div class="container">
+    <h1>Node</h1>
+    <p>Node is a B2B SaaS fintech company. We provide predictive market analysis and portfolio insights, plus a 1:1 stable coin built for crypto farms and mines. We work with banks, finance and consulting teams, and quant researchers worldwide.</p>
+    <ul>
+      <li>Real-time market data and predictive models</li>
+      <li>Stable coin, pegged 1:1</li>
+      <li>Withdraw or exit investments any time, no surcharges</li>
+      <li>We earn revenue from transactions, not from fees</li>
+    </ul>
+    <a href="#contact" class="btn">Get in touch</a>
+  </div>
+</section>
+
+<section id="founders">
+  <div class="container">
+    <h2>Founders</h2>
+
+    <div class="founder">
+      <div class="avatar"><img src="arpan-ghoshal.png" alt="Arpan Ghoshal"></div>
+      <div><b>Arpan Ghoshal</b><br>Founder &amp; CEO</div>
+    </div>
+    <div class="founder">
+      <div class="avatar">SK</div>
+      <div><b>Sami Khan</b><br>Co-Founder &amp; COO</div>
+    </div>
+
+    <blockquote>
+      "I started Node because I got really frustrated watching good people make decisions with bad information. That is what we are building at Node — real market signals, models that work when things get tough, and the flexibility to change your mind without getting punished for it. If you want to move your money, you can. We are still early, and we are building this with the people who will actually use it. If that sounds like something you want to be part of, I would love to have you at Node." — The Founder
+    </blockquote>
+  </div>
+</section>
+
+<section id="team">
+  <div class="container">
+    <h2>Core Team</h2>
+    <ul class="team-list">
+      <li><b>Marketing &amp; Media</b> — Associate</li>
+      <li><b>Finance</b></li>
+      <li><b>Product Design</b></li>
+      <li><b>Risk Assessment &amp; Merger Portfolios</b></li>
+      <li><b>Operations &amp; Executive</b> — Srinivi Dayana Yaconia</li>
+    </ul>
+  </div>
+</section>
+
+<footer id="contact">
+  © 2026 Node. All rights reserved.
+</footer>
+
+</body>
+</html>
